@@ -6,10 +6,10 @@ import { RunawayButton } from '../ui/RunawayButton';
 
 // --- TUS FOTOS REALES ---
 const photos = [
-  { src: '/image1.JPG', alt: 'Momento 1', position: 'top-[2%] -left-[5%] md:top-[5%] md:-left-[2%] -rotate-12', delay: 0.1 },
-  { src: '/image2.PNG', alt: 'Momento 2', position: 'top-[5%] -right-[5%] md:top-[8%] md:-right-[2%] rotate-12', delay: 0.3 },
-  { src: '/image3.JPG', alt: 'Momento 3', position: 'bottom-[5%] -left-[2%] md:bottom-[10%] md:left-[2%] rotate-6', delay: 0.5 },
-  { src: '/IMG_8936.jpg', alt: 'Momento 4', position: 'bottom-[2%] -right-[2%] md:bottom-[5%] md:right-[2%] -rotate-12', delay: 0.7 },
+  { src: './image1.JPG', alt: 'Momento 1', position: 'top-[2%] -left-[5%] md:top-[5%] md:-left-[2%] -rotate-12', delay: 0.1 },
+  { src: './image2.PNG', alt: 'Momento 2', position: 'top-[5%] -right-[5%] md:top-[8%] md:-right-[2%] rotate-12', delay: 0.3 },
+  { src: './image3.JPG', alt: 'Momento 3', position: 'bottom-[5%] -left-[2%] md:bottom-[10%] md:left-[2%] rotate-6', delay: 0.5 },
+  { src: './IMG_8936.jpg', alt: 'Momento 4', position: 'bottom-[2%] -right-[2%] md:bottom-[5%] md:right-[2%] -rotate-12', delay: 0.7 },
 ];
 
 const FloatingPhoto = ({ src, alt, className, delay }) => (

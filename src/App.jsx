@@ -16,7 +16,7 @@ import CustomCursor from './components/ui/CustomCursor';
 function App() {
   // CAMBIO: Iniciamos en 'loading'
   const [stage, setStage] = useState('loading');
-  const [audio] = useState(new Audio('/cancion.mp3'));
+  const [audio] = useState(new Audio('./cancion.mp3'));
 
   const handleStartStory = () => {
     audio.loop = true;
