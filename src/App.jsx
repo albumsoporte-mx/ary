@@ -12,6 +12,8 @@ import RealitySection from './components/sections/03b-Reality';
 import ClosingVows from './components/sections/03c-ClosingVows';
 import ProposalSection from './components/sections/04-Proposal';
 import CustomCursor from './components/ui/CustomCursor';
+import PersonalNote from './components/sections/03d-PersonalNote';
+
 
 function App() {
   // CAMBIO: Iniciamos en 'loading'
@@ -56,6 +58,7 @@ function App() {
             <PromiseSection />
             <RealitySection />
             <ClosingVows />
+            <PersonalNote />
             <ProposalSection />
             
             <footer className="py-8 text-center text-slate-800 text-xs bg-slate-950 relative z-10 opacity-50">
